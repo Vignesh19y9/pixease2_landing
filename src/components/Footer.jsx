@@ -8,7 +8,7 @@ export default function App() {
       <div className="mb-9 flex justify-center" style={{ paddingTop: "5rem" }}>
         <a className="mr-9 text-neutral-800 dark:text-neutral-200"></a>
         <a
-          href="https://twitter.com/TextBeatApp"
+          href="https://x.com/pixease_app"
           className="mr-9 text-neutral-800 dark:text-neutral-200"
         >
           <svg
@@ -23,7 +23,7 @@ export default function App() {
           </svg>
         </a>
         <a
-          href="https://www.linkedin.com/in/vignesh-⚡%EF%B8%8F-106443260/"
+          href="https://www.linkedin.com/company/96591070/"
           className="mr-9 text-neutral-800 dark:text-neutral-200"
         >
           <svg

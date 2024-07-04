@@ -9,6 +9,7 @@ import MoreFeatures from "./components/MoreFeatures";
 import Footer from "./components/Footer";
 import Terms from "./components/Terms";
 import Privacy from "./components/Privacy";
+import Auto from "./components/Auto";
 
 import DownloadButton from "./components/DownloadButton";
 
@@ -27,6 +28,7 @@ const App = () => {
               <Arrangment />
               <Simultaneous />
               <Annotation />
+              <Auto />
               <MoreFeatures />
               <Footer />
             </div>
