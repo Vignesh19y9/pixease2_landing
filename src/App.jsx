@@ -2,6 +2,9 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import Workflow from "./components/Workflow";
+import Arrangment from "./components/Arrangment";
+
+import DownloadButton from "./components/DownloadButton";
 
 const App = () => {
   return (
@@ -14,6 +17,8 @@ const App = () => {
             <div className="max-w-7xl mx-auto pt-20 px-6">
               <HeroSection />
               <Workflow />
+              <DownloadButton />
+              <Arrangment />
             </div>
           }
         />

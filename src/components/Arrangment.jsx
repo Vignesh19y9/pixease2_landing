@@ -1,18 +1,18 @@
 import React, { useState } from "react";
-import video1 from "../assets/Demo1.mp4";
+import video1 from "../assets/DemoArrange.mp4";
 
-const Workflow = () => {
+const Arrangment = () => {
   return (
     <div className="mt-20 ">
       <h2 className="text-3xl sm:text-4xl lg:text-4xl text-center mt-6 tracking-wide font-bold">
-        Combine Screenshots into{" "}
+        Effortless{" "}
         <span className="bg-gradient-to-l from-pink-500 to-pink-500 text-transparent bg-clip-text font-light">
-          Single Compositions
+          Arrangement
         </span>
       </h2>
       <h2 className="text-lg  text-center tracking-wide ">
-        Capture all your Screenshots, and seamlessly create a unified visual
-        narrative.
+        Say goodbye to dragging and positioning! Arrange your screenshots with a
+        single click.
       </h2>
 
       <div className="  bg-[#1a1a1a] rounded-3xl  flex flex-col lg:flex-row items-center mt-6 lg:mt-2 py-5">
@@ -24,7 +24,7 @@ const Workflow = () => {
   );
 };
 
-export default Workflow;
+export default Arrangment;
 
 const Video = ({ videoSrc }) => {
   return (
