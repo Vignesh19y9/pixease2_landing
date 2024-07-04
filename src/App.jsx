@@ -7,6 +7,8 @@ import Simultaneous from "./components/Simultaneous";
 import Annotation from "./components/Annotation";
 import MoreFeatures from "./components/MoreFeatures";
 import Footer from "./components/Footer";
+import Terms from "./components/Terms";
+import Privacy from "./components/Privacy";
 
 import DownloadButton from "./components/DownloadButton";
 
@@ -30,8 +32,8 @@ const App = () => {
             </div>
           }
         />
-        {/* <Route path="/terms" element={<Terms />} />
-        <Route path="/privacy" element={<Privacy />} /> */}
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/privacy" element={<Privacy />} />
       </Routes>
     </>
   );

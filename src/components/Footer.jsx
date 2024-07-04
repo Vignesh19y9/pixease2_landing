@@ -51,7 +51,7 @@ export default function App() {
         <Link to="/terms"> Terms of Service</Link>
       </div>
       <div className=" p-4 text-center text-neutral-700  dark:text-neutral-200">
-        © 2024 TextBeat
+        © 2023 PixEase
         <a className="text-neutral-800 dark:text-neutral-400" href=""></a>
       </div>
     </footer>
