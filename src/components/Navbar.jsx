@@ -6,7 +6,7 @@ import { navItems } from "../constants";
 const Logo = () => (
   <div className="flex items-center flex-shrink-0">
     <img className="h-8 w-8 mr-2 rounded-md" src={logo} alt="Logo" />
-    <span className="text-sm font-bold tracking-wide">Text Beat</span>
+    <span className="text-sm font-bold tracking-wide">PixEase</span>
   </div>
 );
 
@@ -22,7 +22,7 @@ const NavLinks = () => (
 
 const NavActions = () => (
   <div className="hidden lg:flex justify-center space-x-4 items-center">
-    <a href="https://robsapp1.ck.page/textbeats">
+    <a href="https://pixease.ck.page/e5b3582635">
       <button
         type="button"
         className="text-white hover:text-white bg-[#454545] hover:bg-[#5b5b5b] focus:ring-4 focus:outline-none focus:ring-[#2c2035] font-bold rounded-full text-sm px-4 py-2 text-center inline-flex items-center transition-colors duration-300"
@@ -31,7 +31,7 @@ const NavActions = () => (
       </button>
     </a>
 
-    <a href="https://apps.apple.com/in/app/text-beat-music-video-maker/id6478076101">
+    <a href="https://apps.apple.com/in/app/pixease/id6449191849?mt=12">
       <button
         type="button"
         className="text-white hover:text-white bg-[#007AFF] hover:bg-[#75b7fff3] focus:ring-4 focus:outline-none focus:ring-[#2c2035] font-bold rounded-full text-sm px-6 py-2 text-center inline-flex items-center transition-colors duration-300"
@@ -61,7 +61,7 @@ const MobileMenu = ({ mobileDrawerOpen }) =>
         ))}
       </ul> */}
       <div className="flex flex-col space-y-4 mt-6">
-        <a href="https://robsapp1.ck.page/textbeats">
+        <a href="https://pixease.ck.page/e5b3582635">
           <button
             type="button"
             className="text-white hover:text-white bg-[#454545] hover:bg-[#5b5b5b] focus:ring-4 focus:outline-none focus:ring-[#2c2035] font-bold rounded-full text-sm px-4 py-2 text-center inline-flex items-center transition-colors duration-300"
@@ -71,7 +71,7 @@ const MobileMenu = ({ mobileDrawerOpen }) =>
         </a>
 
         <div className="text-center">
-          <a href="https://apps.apple.com/in/app/text-beat-music-video-maker/id6478076101">
+          <a href="https://apps.apple.com/in/app/pixease/id6449191849?mt=12">
             <button
               type="button"
               className="text-white hover:text-white bg-[#007AFF] hover:bg-[#75b7fff3] focus:ring-4 focus:outline-none focus:ring-[#2c2035] font-bold rounded-full text-sm px-6 py-2 text-center inline-flex items-center transition-colors duration-300"
