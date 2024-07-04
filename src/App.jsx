@@ -6,6 +6,7 @@ import Arrangment from "./components/Arrangment";
 import Simultaneous from "./components/Simultaneous";
 import Annotation from "./components/Annotation";
 import MoreFeatures from "./components/MoreFeatures";
+import Footer from "./components/Footer";
 
 import DownloadButton from "./components/DownloadButton";
 
@@ -25,6 +26,7 @@ const App = () => {
               <Simultaneous />
               <Annotation />
               <MoreFeatures />
+              <Footer />
             </div>
           }
         />
