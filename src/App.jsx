@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import Workflow from "./components/Workflow";
 import Arrangment from "./components/Arrangment";
+import Simultaneous from "./components/Simultaneous";
 
 import DownloadButton from "./components/DownloadButton";
 
@@ -19,6 +20,7 @@ const App = () => {
               <Workflow />
               <DownloadButton />
               <Arrangment />
+              <Simultaneous />
             </div>
           }
         />
