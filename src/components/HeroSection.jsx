@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto px-6 lg:flex lg:flex-row items-center lg:space-x-8">
         <div className="flex flex-col space-y-10">
           <Heading />
-          <p className="text-2xl text-center max-w-4xl tracking-wide font-light">
+          <p className="text-xl text-gray-400 text-center max-w-4xl tracking-wide font-light">
             Quick, Easy, and Beautiful
           </p>
           <DownloadButton />
@@ -59,7 +59,7 @@ const Video = ({ videoSrc }) => {
         autoPlay
         loop
         muted
-        className="rounded-3xl w-11/12 shadow-2xl border border-gray-700"
+        className="rounded-xl w-11/12 shadow-2xl border border-gray-700"
         controls
       >
         <source src={videoSrc} type="video/mp4" />

@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Terms from "./components/Terms";
 import Privacy from "./components/Privacy";
 import Auto from "./components/Auto";
+import NewsLetter from "./components/NewsLetter";
 
 import DownloadButton from "./components/DownloadButton";
 
@@ -28,7 +29,9 @@ const App = () => {
             <Simultaneous />
             <Annotation />
             <Auto />
+            <DownloadButton />
             <MoreFeatures />
+            <NewsLetter />
             <Footer />
           </div>
         }
