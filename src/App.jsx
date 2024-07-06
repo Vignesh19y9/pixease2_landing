@@ -16,12 +16,12 @@ import DownloadButton from "./components/DownloadButton";
 const App = () => {
   return (
     <>
-      <Navbar />
       <Routes>
         <Route
           path="/pixease/"
           element={
-            <div className="max-w-7xl mx-auto pt-20 px-6">
+            <div className="max-w-7xl mx-auto px-6 m-10">
+              <Navbar />
               <HeroSection />
               <Workflow />
               <DownloadButton />
