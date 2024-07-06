@@ -15,29 +15,27 @@ import DownloadButton from "./components/DownloadButton";
 
 const App = () => {
   return (
-    <>
-      <Routes>
-        <Route
-          path="/pixease/"
-          element={
-            <div className="max-w-7xl mx-auto px-6 m-10">
-              <Navbar />
-              <HeroSection />
-              <Workflow />
-              <DownloadButton />
-              <Arrangment />
-              <Simultaneous />
-              <Annotation />
-              <Auto />
-              <MoreFeatures />
-              <Footer />
-            </div>
-          }
-        />
-        <Route path="/terms" element={<Terms />} />
-        <Route path="/privacy" element={<Privacy />} />
-      </Routes>
-    </>
+    <Routes>
+      <Route
+        path="/pixease/"
+        element={
+          <div>
+            <Navbar />
+            <HeroSection />
+            <Workflow />
+            <DownloadButton />
+            <Arrangment />
+            <Simultaneous />
+            <Annotation />
+            <Auto />
+            <MoreFeatures />
+            <Footer />
+          </div>
+        }
+      />
+      <Route path="/terms" element={<Terms />} />
+      <Route path="/privacy" element={<Privacy />} />
+    </Routes>
   );
 };
 

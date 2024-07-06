@@ -3,11 +3,11 @@ import video1 from "../assets/Demo1.mp4";
 
 const Workflow = () => {
   return (
-    <div className="mt-20 ">
-      <h2 className="text-3xl sm:text-4xl lg:text-4xl text-center mt-6 tracking-wide font-bold">
-        Combine Screenshots into{" "}
-        <span className="bg-gradient-to-l from-pink-500 to-pink-500 text-transparent bg-clip-text font-light">
-          Single Compositions
+    <div className="m-20 space-y-4 p-20">
+      <h2 className="text-5xl text-center mt-6 tracking-wide font-bold">
+        Multiple Screenshots{" "}
+        <span className="bg-gradient-to-l from-orange-700 to-orange-400 text-transparent bg-clip-text font-black">
+          Compositions
         </span>
       </h2>
       <h2 className="text-lg  text-center tracking-wide ">
@@ -15,8 +15,8 @@ const Workflow = () => {
         narrative.
       </h2>
 
-      <div className="  bg-[#1a1a1a] rounded-3xl  flex flex-col lg:flex-row items-center mt-6 lg:mt-2 py-5">
-        <div className="flex flex-1 flex-col items-center">
+      <div className="  bg-gradient-to-r from-orange-400 to-orange-700 rounded-3xl  flex flex-col lg:flex-row items-center mt-6 lg:mt-2">
+        <div className="flex flex-1 flex-col items-center p-10">
           <Video videoSrc={video1} />
         </div>
       </div>
