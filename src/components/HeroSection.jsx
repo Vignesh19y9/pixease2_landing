@@ -3,15 +3,18 @@ import DownloadButton from "./DownloadButton";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center mt-6 lg:mt-2 lg:space-x-8">
-      <div className="flex flex-col space-y-16">
-        <Heading />
-        <p className="text-2xl text-center max-w-4xl tracking-wide font-light">
-          Quick, Easy, and Beautiful
-        </p>
-        <DownloadButton />
+    <div className=" py-10">
+      {/* bg-gradient-to-r from-gray-500 to-gray-900 */}
+      <div className="max-w-7xl mx-auto px-6 lg:flex lg:flex-row items-center lg:space-x-8">
+        <div className="flex flex-col space-y-10">
+          <Heading />
+          <p className="text-2xl text-center max-w-4xl tracking-wide font-light">
+            Quick, Easy, and Beautiful
+          </p>
+          <DownloadButton />
+        </div>
+        <Video videoSrc={video1} />
       </div>
-      <Video videoSrc={video1} />
     </div>
   );
 };
@@ -27,7 +30,7 @@ const Heading = () => {
           backgroundImage: "linear-gradient(to bottom,#fff9, #fff, #fff9)",
         }}
       >
-        Capture Screenshots
+        Capture
       </span>
       <span
         className="bg-gradient-to-r text-transparent bg-clip-text font-extrabold tracking-light"
@@ -36,12 +39,13 @@ const Heading = () => {
         }}
       >
         {" "}
-        Effortlessly,{" "}
+        Beautiful{" "}
       </span>
+      Screenshots
       <div>
         <span className="h-14 bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text font-extrabold ">
           {" "}
-          Wonderfully.
+          Effortlessly.
         </span>
       </div>
     </h1>
