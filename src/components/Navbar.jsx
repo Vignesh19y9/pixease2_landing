@@ -52,7 +52,7 @@ const MobileDrawer = ({ mobileDrawerOpen, toggleNavbar }) => (
 
 const MobileMenu = ({ mobileDrawerOpen }) =>
   mobileDrawerOpen && (
-    <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden py-10">
+    <div className="fixed right-0 z-20 w-full  flex flex-col justify-center items-center lg:hidden">
       {/* <ul>
         {navItems.map((item, index) => (
           <li key={index} className="py-4">
@@ -92,8 +92,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="z-50 py-3 backdrop-blur-lg">
-      <div className="container px-4 mx-auto relative lg:text-sm">
+    <nav className="z-50 backdrop-blur-lg">
+      <div className="container mx-auto relative lg:text-sm m-5">
         <div className="flex justify-between items-center">
           <Logo />
           {/* <NavLinks /> */}
