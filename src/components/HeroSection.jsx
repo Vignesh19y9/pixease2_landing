@@ -32,18 +32,13 @@ const Heading = () => {
       >
         Capture
       </span>
-      <span
-        className="bg-gradient-to-r text-transparent bg-clip-text font-extrabold tracking-light"
-        style={{
-          backgroundImage: "linear-gradient(to bottom,#ffff, #560DF8)",
-        }}
-      >
+      <span className="h-14 bg-gradient-to-r from-pink-500 to-violet-500 text-transparent bg-clip-text font-extrabold ">
         {" "}
         Beautiful{" "}
       </span>
       Screenshots
       <div>
-        <span className="h-14 bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text font-extrabold ">
+        <span className="h-14 bg-gradient-to-r from-orange-500 to-pink-500 text-transparent bg-clip-text font-extrabold ">
           {" "}
           Effortlessly.
         </span>

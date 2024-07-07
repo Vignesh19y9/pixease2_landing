@@ -28,16 +28,22 @@ export default function App() {
       <div className="flex justify-between items-center">
         {/* Left side */}
         <div className="flex space-x-2">
-          <p className="text-neutral-500">&copy; 2024 pixease</p>
+          <p className="text-neutral-500" style={{ width: 120, height: 30 }}>
+            &copy; 2024 pixease
+          </p>
         </div>
         {/* Center */}
-        <div className="flex space-x-2">
-          <Link to="/privacy">Privacy Policy</Link>
+        <div className="flex space-x-2 text-neutral-500">
+          <Link to="/privacy">Privacy</Link>
           <p>|</p>
-          <Link to="/terms"> Terms of Service</Link>
+          <Link to="/terms">Terms</Link>
         </div>
         {/* Right side */}
-        <a href="mailto:robzapps1@gmail.com" className="text-neutral-500">
+        <a
+          href="mailto:robzapps1@gmail.com"
+          className="text-neutral-500"
+          style={{ width: 140, height: 30 }}
+        >
           robzapps1@gmail.com
         </a>
       </div>
