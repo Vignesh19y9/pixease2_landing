@@ -40,11 +40,11 @@ export default function App() {
         </div>
         {/* Right side */}
         <a
-          href="mailto:robzapps1@gmail.com"
+          href="mailto:contact@robzapps.com"
           className="text-neutral-500"
           style={{ width: 140, height: 30 }}
         >
-          robzapps1@gmail.com
+          contact@robzapps.com
         </a>
       </div>
     </footer>
