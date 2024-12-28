@@ -93,6 +93,8 @@ const Navbar = () => {
 
   return (
     <nav className="z-50 py-10 backdrop-blur-lg">
+      <Link to="/pixease/privacy">Privacy</Link>
+      <Link to="/pixease/terms">Terms</Link>
       <div className="container px-4 mx-auto relative lg:text-sm">
         <div className="flex justify-between items-center">
           <Logo />
