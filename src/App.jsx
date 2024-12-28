@@ -36,8 +36,8 @@ const App = () => {
           </div>
         }
       />
-      <Route path="/pixease/terms" element={<Terms />} />
-      <Route path="/pixease/privacy" element={<Privacy />} />
+      <Route path="/terms" element={<Terms />} />
+      <Route path="/privacy" element={<Privacy />} />
     </Routes>
   );
 };

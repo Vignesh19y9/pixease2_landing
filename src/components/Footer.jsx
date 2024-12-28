@@ -38,7 +38,7 @@ export default function App() {
           </div>
 
           <div className="flex space-x-2 text-neutral-500 w-40 justify-center">
-            <Link to="pixease/privacy">Privacy</Link>
+            <Link to="/privacy">Privacy</Link>
             <p>|</p>
             <Link to="/terms">Terms</Link>
           </div>
