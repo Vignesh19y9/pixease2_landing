@@ -18,7 +18,7 @@ const App = () => {
   return (
     <Routes>
       <Route
-        path="/pixease/"
+        path="/"
         element={
           <div>
             <Navbar />
